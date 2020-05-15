@@ -7,3 +7,13 @@
 .p-nav li {
 	display: inline-block;
 }
+
+/* Project Overview */
+.b-intro {
+
+}
+
+.b-intro-list ul {
+	list-style: none;
+}
+
