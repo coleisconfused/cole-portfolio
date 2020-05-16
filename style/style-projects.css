@@ -28,7 +28,6 @@ p {
 	min-height: 100vh;
 }
 
-
 /* Navigation Bar */
 .p-nav1 {
 	float: left;
@@ -54,28 +53,14 @@ p {
 	display: inline-block;
 	padding-right: 1em;
 }
-/* homepage */
 
-.hero {
-	padding: 5em 2em 1em 1em;
-	margin: 2em 3em 5em 3em;
-	font-size: 2em;
-	font-family: R-Slab-Med;
+
+/* Project Overview */
+.banner {
+	width: 100%;
 }
 
-.hero p{
-	font-family: R-Slab-Reg;
-}
-
-.wrapper{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-  	grid-gap: 2em;
-  	grid-auto-rows: minmax(100px, auto);
-  	padding-bottom: 2rem;
-}
-
-.projs {
+article {
 	width: 27em;
 	height: 13em;
 	padding: 5em;
@@ -84,30 +69,12 @@ p {
 	border: solid black;
 }
 
-.projs h5 {
-	text-transform: uppercase;
-}
-.one {
-	grid-column: 1 / 2;
-	grid-row: 1;
-}
-.two { 
-	grid-column: 2 / 2;
-	grid-row: 1;
-}
-.three {
-	grid-column: 1 / 2;
-	grid-row: 2;
-}
-.four {
-	grid-column: 2 / 2;
-	grid-row: 2;
+.b-intro-list {
+	list-style: none;
 }
 
-.five {
-	grid-column: 1 / 2;
-	grid-row: 3;
-}
+
+
 
 
 /* footer */
@@ -127,6 +94,10 @@ footer {
 	display: inline-block;
 	padding-right: 1em;
 }
+
+
+
+
 
 
 /* Links Styling */

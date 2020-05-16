@@ -1,0 +1,24 @@
+@font-face {
+	font-family: Montserrat-Reg;
+	src: url(fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: R-Slab-Reg;
+ 	src: url(fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
+
+@font-face {
+	font-family: R-Slab-Med;
+ 	src: url(fonts/Roboto_Slab/Static/RobotoSlab-Medium.ttf);
+}
+body{
+	/*margin: 0em 8em 4em em;*/
+	background-color: #FDE055;
+	color: #14343E;
+	font-family: Montserrat-Reg;
+}
+
+p {
+	font-size: 21px;
+}
