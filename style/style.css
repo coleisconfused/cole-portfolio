@@ -1,13 +1,113 @@
-.p-nav {
+@font-face {
+	font-family: Montserrat-Reg;
+	src: url(fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+	font-family: R-Slab-Reg;
+ 	src: url(fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
+}
+
+@font-face {
+	font-family: R-Slab-Med;
+ 	src: url(fonts/Roboto_Slab/Static/RobotoSlab-Medium.ttf);
+}
+body{
+	/*margin: 0em 8em 4em em;*/
+	background-color: #FDE055;
+	color: #14343E;
+	font-family: Montserrat-Reg;
+}
+
+p {
+	font-size: 21px;
+}
+
+.page-container {
+	position: relative;
+	min-height: 100vh;
+}
+
+
+/* Navigation Bar */
+.p-nav1 {
+	float: left;
+	font-size: 1.2em;
 	list-style: none;
 	padding: 0;
-	margin: 0;
+	margin-left: 2em;
 }
 
-.p-nav li {
+.p-nav2 {
+	float: right;
+	font-size: 1.2em;
+	list-style: none;
+	padding: 0;
+	margin-right: 2em;
+}
+
+.p-nav1 li {
 	display: inline-block;
+	padding-right: 1em;
+}
+.p-nav2 li {
+	display: inline-block;
+	padding-right: 1em;
+}
+/* homepage */
+
+.hero {
+	padding: 5em 2em 1em 1em;
+	margin: 2em 3em 5em 3em;
+	font-size: 2em;
+	font-family: R-Slab-Med;
 }
 
+.hero p{
+	font-family: R-Slab-Reg;
+}
+
+.wrapper{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+  	grid-gap: 2em;
+  	grid-auto-rows: minmax(100px, auto);
+  	padding-bottom: 2rem;
+}
+
+.projs {
+	width: 27em;
+	height: 13em;
+	padding: 5em;
+	font-size: 1em;
+	margin-left: 5em;
+	border: solid black;
+}
+
+.projs h5 {
+	text-transform: uppercase;
+}
+.one {
+	grid-column: 1 / 2;
+	grid-row: 1;
+}
+.two { 
+	grid-column: 2 / 2;
+	grid-row: 1;
+}
+.three {
+	grid-column: 1 / 2;
+	grid-row: 2;
+}
+.four {
+	grid-column: 2 / 2;
+	grid-row: 2;
+}
+
+.five {
+	grid-column: 1 / 2;
+	grid-row: 3;
+}
 /* Project Overview */
 .b-intro {
 
@@ -17,3 +117,48 @@
 	list-style: none;
 }
 
+/* footer */
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 2rem;
+
+}
+.footer ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.footer li {
+	display: inline-block;
+	padding-right: 1em;
+}
+
+
+/* Links Styling */
+
+/* unvisited link */
+a:link {
+	text-decoration: underline;
+	color: #14343E;
+}
+
+/* visited link */
+a:visited {
+	text-decoration: none;
+	color: #14343E;
+
+}
+
+/* mouse over link */
+a:hover {
+	color: #14343E;
+	background-color: #F2EFEA;
+}
+
+/* selected link */
+a:active {
+	color: blue;
+	text-decoration: underline;
+}
