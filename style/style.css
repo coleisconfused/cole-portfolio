@@ -16,37 +16,30 @@ p {font-size: 21px;}
 
 /* Navigation Bar */
 .nav-bar-box { margin: 2em; }
-.p-nav1 { float: left; font-size: 1.2em; padding: 0; margin-left: 2em; }
-.p-nav2 { float: right; font-size: 1.2em; padding: 0; margin-right: 2em;}
+.p-nav1 { float: left; font-size: 1em; padding: 0; margin-left: 2em; }
+.p-nav2 { float: right; font-size: 1em; padding: 0; margin-right: 2em;}
 .p-nav1 li { display: inline-block; padding-right: 1em;}
 .p-nav2 li { display: inline-block; padding-right: 1em;}
 /* homepage */
 
-.hero {
-	padding: 3em 0em 0em 0em;
-	font-size: 2em;
-	font-family: R-Slab-Med;
-	/*margin-left: 5em;*/
-	border: solid black;
-}
+.hero {font-size: 2.2em;line-height: 215%;letter-spacing: 3px;font-family: R-Slab-Reg;padding-top: 3em;}
 
-.hero p{font-family: R-Slab-Reg;}
+.hero p{font-family: R-Slab-Reg; line-height: 175%; letter-spacing: 1px;margin-bottom: 5em;}
 
 .wrapper{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-  	grid-gap: 1em;
-  	grid-auto-rows: minmax(100px, auto);
+  	grid-gap: 25px 135px;
   	padding-bottom: 2rem;
 }
 
-.projs { width: 30em; height: 15em; font-size: 1em; border: solid black;}
+.projs {width: 30em;height: 15em;font-size: 1em;}
 .projs h5 {text-transform: uppercase;}
-.one { grid-column: 1; grid-row: 1;}
-.two { grid-column: 2; grid-row: 1;}
-.three { grid-column: 3; grid-row: 1;}
-.four { grid-column: 1; grid-row: 2;}
-.five { grid-column: 2; grid-row: 2;}
+.one {grid-column: 1;grid-row: 1;}
+.two {grid-column: 2;grid-row: 1;}
+.three {grid-column: 3;grid-row: 1;}
+.four {grid-column: 1;grid-row: 2;}
+.five {grid-column: 2;grid-row: 2;}
 
 
 
@@ -54,26 +47,10 @@ p {font-size: 21px;}
 /* Links Styling */
 
 /* unvisited link */
-a:link {
-	text-decoration: underline;
-	color: #14343E;
-}
-
+a:link {text-decoration: underline;color: #14343E;}
 /* visited link */
-a:visited {
-	text-decoration: none;
-	color: #14343E;
-
-}
-
+a:visited {text-decoration: none;color: #14343E;}
 /* mouse over link */
-a:hover {
-	color: #14343E;
-	background-color: #F2EFEA;
-}
-
+a:hover {color: #14343E;background-color: #F2EFEA;}
 /* selected link */
-a:active {
-	color: blue;
-	text-decoration: underline;
-}
+a:active {color: blue;text-decoration: underline;}
