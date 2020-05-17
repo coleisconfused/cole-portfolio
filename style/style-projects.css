@@ -13,89 +13,64 @@
  	src: url(fonts/Roboto_Slab/Static/RobotoSlab-Medium.ttf);
 }
 body{
-	/*margin: 0em 8em 4em em;*/
 	background-color: #FDE055;
 	color: #14343E;
 	font-family: Montserrat-Reg;
 }
 
-p {
-	font-size: 21px;
-}
+p {font-size: 18px;}
+ul {list-style: none;}
 
-.page-container {
-	position: relative;
-	min-height: 100vh;
-}
+.page-container {position: relative;min-height: 100vh;}
 
 /* Navigation Bar */
-.p-nav1 {
-	float: left;
-	font-size: 1.2em;
-	list-style: none;
-	padding: 0;
-	margin-left: 2em;
-}
-
-.p-nav2 {
-	float: right;
-	font-size: 1.2em;
-	list-style: none;
-	padding: 0;
-	margin-right: 2em;
-}
-
-.p-nav1 li {
-	display: inline-block;
-	padding-right: 1em;
-}
-.p-nav2 li {
-	display: inline-block;
-	padding-right: 1em;
-}
-
-
+nav {font-size: 1.2em;padding: 0;}
+.p-nav1 {float: left;margin-left: 2em;}
+.p-nav2 {float: right;margin-right: 2em;}
+.p-nav1 .p-nav2 li {display: inline-block;}
+/**/
+/**/
 /* Project Overview */
-.banner {
-	width: 100%;
-}
-
-article {
-	width: 27em;
-	height: 13em;
-	padding: 5em;
-	font-size: 1em;
-	margin-left: 5em;
-	border: solid black;
-}
-
-.b-intro-list {
-	list-style: none;
-}
-
-
-
-
-
-/* footer */
-footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 2rem;
-
-}
-.footer ul {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-.footer li {
+/**/
+/**/
+.banner {margin-top: 4em;max-width: 100%;}
+article { border: solid black; padding: 3em; line-height: 175%; letter-spacing: 1px;}
+article h4 { text-align: center; border: solid black; font-size: 2em; }
+article h1 {font-size: 64px; line-height: 125%; letter-spacing: 3px; font-family: R-Slab-Reg;}
+article h6 { border: solid black; text-align: center;}
+article p { border: solid black; padding: 0;}
+.intro p {
+	border: solid #FDE055;
 	display: inline-block;
-	padding-right: 1em;
+	width: 65%;
+	padding: 32px 30px 25px 0;
+	height: 50px;
+}
+.intro ul{
+	/*border: solid black;*/
+	display: inline-block;
+	/*padding: 25px 30px 32px 2em;*/
+	width: 15%;
+	height: 50px;
+	margin: 5em 0em 0em 15em;
 }
 
+.research-found li { 
+	border: solid black; 
+	width: 300px; 
+	height: 300px;
+	display: inline-block; 
+	/*margin: 2em 6em 2em 4em; */
+	margin: 7em;
+	/*padding: 4em;*/
+}
 
+.persona {
+	border: solid black;
+	width: 1000;
+	height: 500px;
+	margin-bottom: 2em;
+}
 
 
 
