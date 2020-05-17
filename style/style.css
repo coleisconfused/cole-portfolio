@@ -2,58 +2,24 @@
 	font-family: Montserrat-Reg;
 	src: url(fonts/Montserrat/Montserrat-Regular.ttf);
 }
-
 @font-face {
 	font-family: R-Slab-Reg;
  	src: url(fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
 }
-
 @font-face {
 	font-family: R-Slab-Med;
  	src: url(fonts/Roboto_Slab/Static/RobotoSlab-Medium.ttf);
 }
+body{ background-color: #FDE055; color: #14343E; font-family: Montserrat-Reg;}
+p {font-size: 21px;}
+.page-container { margin-left: 5em; margin-right: 5em;}
 
-body{
-	/*margin: 0em 8em 4em em;*/
-	background-color: #FDE055;
-	color: #14343E;
-	font-family: Montserrat-Reg;
-}
-
-p {
-	font-size: 21px;
-}
-
-.page-container {
-	margin-left: 5em;
-}
 /* Navigation Bar */
-
-.nav-bar-box {
-	margin: 2em;
-}
-.p-nav1 {
-	float: left;
-	font-size: 1.2em;
-	padding: 0;
-	margin-left: 2em;
-}
-
-.p-nav2 {
-	float: right;
-	font-size: 1.2em;
-	padding: 0;
-	margin-right: 2em;
-}
-
-.p-nav1 li {
-	display: inline-block;
-	padding-right: 1em;
-}
-.p-nav2 li {
-	display: inline-block;
-	padding-right: 1em;
-}
+.nav-bar-box { margin: 2em; }
+.p-nav1 { float: left; font-size: 1.2em; padding: 0; margin-left: 2em; }
+.p-nav2 { float: right; font-size: 1.2em; padding: 0; margin-right: 2em;}
+.p-nav1 li { display: inline-block; padding-right: 1em;}
+.p-nav2 li { display: inline-block; padding-right: 1em;}
 /* homepage */
 
 .hero {
@@ -69,18 +35,12 @@ p {
 .wrapper{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-  	grid-gap: 2em;
+  	grid-gap: 1em;
   	grid-auto-rows: minmax(100px, auto);
   	padding-bottom: 2rem;
 }
 
-.projs {
-	width: 30em;
-	height: 15em;
-	font-size: 1em;
-	border: solid black;
-}
-
+.projs { width: 30em; height: 15em; font-size: 1em; border: solid black;}
 .projs h5 {text-transform: uppercase;}
 .one { grid-column: 1; grid-row: 1;}
 .two { grid-column: 2; grid-row: 1;}
