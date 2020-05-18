@@ -11,8 +11,8 @@ ul {list-style: none;}
 .page-container { margin-left: 5em; margin-right: 5em;}
 /* Navigation Bar */
 .nav-bar-box { margin: 2em; }
-.p-nav1 { float: left; font-size: 1em; padding: 0; margin-left: 2em;}
-.p-nav2 { float: right; font-size: 1em; padding: 0; margin-right: 2em;}
+.p-nav1 { float: left;font-size: 1em;padding: 0;margin-left: 2em;font-family: Montserrat-Bold;}
+.p-nav2 { float: right;font-size: 1em;padding: 0;margin-right: 2em;font-family: Montserrat-Bold;}
 .p-nav1 li { display: inline-block; padding-right: 1em;}
 .p-nav2 li { display: inline-block; padding-right: 1em;}
 /**/
@@ -20,19 +20,13 @@ ul {list-style: none;}
 /* Project Overview */
 /**/
 /**/
-.banner { margin-top: 4em; max-width: 100%; border: solid black;}
-article { padding: 3em; line-height: 175%; letter-spacing: 1px;}
-article h4 { text-align: center; border: solid black; font-size: 2em; }
-article h1 {font-size: 36px; line-height: 125%; letter-spacing: 3px; font-family: R-Slab-Reg;}
-article h6 { border: solid black; text-align: center;}
-.intro {}
-.intro p {
-	width: 100%;
-	height: 50px;
-}
-.intro ul{display: grid;width: 20%;height: 5%;border: solid black;}
-
+.banner {margin-top: 4em;max-width: 100%;}
+article {padding: 3em;line-height: 175%;letter-spacing: 1px;}
+article h4 {text-align: center;font-size: 2em;}
+article h3 {line-height: 125%;letter-spacing: 3px;font-family: R-Slab-Reg;}
+article h1 {font-size: 48px;line-height: 125%;letter-spacing: 1px;font-family: R-Slab-Reg;}
 .grid-items {
+	margin-left: 3em;
 	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -45,13 +39,14 @@ article h6 { border: solid black; text-align: center;}
 
 .grid-items p {padding: 1em;}
 .grid-items h6 {font-family: Montserrat-Bold;font-size: 16px;text-transform: uppercase;}
-
-.persona {
+.small-titles {font-size: 12px;font-family: Montserrat-Bold;text-align: center;}
+.placeholder {
 	border: solid black;
 	width: 1000;
 	height: 500px;
 	margin-bottom: 2em;
 }
+
 /**/
 /**/
 /* Link Styling*/ 
