@@ -11,7 +11,7 @@
  	src: url(fonts/Roboto_Slab/Static/RobotoSlab-Medium.ttf);
 }
 body{ background-color: #FDE055; color: #14343E; font-family: Montserrat-Reg;}
-p {font-size: 21px;}
+p {font-size: 16px;}
 .page-container { margin-left: 5em; margin-right: 5em;}
 
 /* Navigation Bar */
@@ -28,19 +28,20 @@ p {font-size: 21px;}
 
 .wrapper{
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(2, 1fr);
   	grid-gap: 25px 135px;
   	padding-bottom: 2rem;
 }
-
-.projs {width: 30em;height: 15em;font-size: 1em;}
+.wrapper span{font-size: 10px;text-transform: uppercase;}
+.projs {width: 30em;height: 15em;font-size: 16px;}
 .projs h5 {text-transform: uppercase;}
 .one {grid-column: 1;grid-row: 1;}
-.two {grid-column: 2;grid-row: 1;}
-.three {grid-column: 3;grid-row: 1;}
-.four {grid-column: 1;grid-row: 2;}
-.five {grid-column: 2;grid-row: 2;}
+.two {grid-column: 1;grid-row: 2;}
+.three {grid-column: 2;grid-row: 1;}
+.four {grid-column: 2;grid-row: 2;}
+.five {grid-column: 1;grid-row: 3;}
 
+.placeholder { display:inline-block; }
 
 
 

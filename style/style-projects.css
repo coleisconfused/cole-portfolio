@@ -2,14 +2,10 @@
 @font-face {font-family: Montserrat-Bold;src: url(fonts/Montserrat/Montserrat-Bold.ttf);}
 @font-face {font-family: R-Slab-Reg;src: url(fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);}
 @font-face {font-family: R-Slab-Med;src: url(fonts/Roboto_Slab/Static/RobotoSlab-Medium.ttf);}
+.bold-char { font-family: Montserrat-Bold; }
 
-
-body{
-	background-color: #FDE055;
-	color: #14343E;
-	font-family: Montserrat-Reg;
-}
-p {font-size: 18px;}
+body {background-color: #FDE055;color: #14343E;font-family: Montserrat-Reg;}
+p {font-size: 16px;}
 ul {list-style: none;}
 
 .page-container { margin-left: 5em; margin-right: 5em;}
@@ -25,21 +21,19 @@ ul {list-style: none;}
 /**/
 /**/
 .banner { margin-top: 4em; max-width: 100%; border: solid black;}
-article { border: solid black; padding: 3em; line-height: 175%; letter-spacing: 1px;}
+article { padding: 3em; line-height: 175%; letter-spacing: 1px;}
 article h4 { text-align: center; border: solid black; font-size: 2em; }
-article h1 {font-size: 64px; line-height: 125%; letter-spacing: 3px; font-family: R-Slab-Reg;}
+article h1 {font-size: 36px; line-height: 125%; letter-spacing: 3px; font-family: R-Slab-Reg;}
 article h6 { border: solid black; text-align: center;}
-article p { border: solid black; padding: 0;}
+.intro {}
 .intro p {
-	border: solid #FDE055;
-	display: inline-block;
-	width: 65%;
-	padding: 32px 30px 25px 0;
+	width: 100%;
 	height: 50px;
 }
-.intro ul{display: inline-block;width: 15%;height: 50px;margin: 5em 0em 0em 15em;}
+.intro ul{display: grid;width: 20%;height: 5%;border: solid black;}
 
 .grid-items {
+	width: 100%;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
   	grid-gap: 2em;
