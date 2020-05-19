@@ -26,7 +26,7 @@ p {font-size: 16px;}
 .p-nav2 li { display: inline-block; padding-right: 1em;}
 /* homepage */
 
-.hero {font-size: 2.2em;line-height: 2.35em;letter-spacing: 3px;font-family: R-Slab-Reg;padding-top: 3em;}
+.hero {line-height: 2.35em;letter-spacing: 3px;font-family: R-Slab-Reg;padding-top: 3em;}
 
 .hero p{font-family: R-Slab-Reg; line-height: 2em; letter-spacing: 1px;margin-bottom: 5em;color: #006494;}
 
