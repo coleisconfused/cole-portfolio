@@ -1,34 +1,24 @@
-@font-face {
-	font-family: Montserrat-Reg;
-	src: url(fonts/Montserrat/Montserrat-Regular.ttf);
-}
-@font-face {
-	font-family: R-Slab-Reg;
- 	src: url(fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);
-}
-@font-face {
-	font-family: R-Slab-Med;
- 	src: url(fonts/Roboto_Slab/Static/RobotoSlab-Medium.ttf);
-}
-@font-face {
-	font-family: R-Slab-Lig;
- 	src: url(fonts/Roboto_Slab/Static/RobotoSlab-Light.ttf);
-}
+@font-face {font-family: Montserrat-Reg;src: url(fonts/Montserrat/Montserrat-Regular.ttf);}
+@font-face {font-family: Montserrat-Bold;src: url(fonts/Montserrat/Montserrat-Bold.ttf);}
+@font-face {font-family: R-Slab-Reg;src: url(fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf);}
+@font-face {font-family: R-Slab-Med;src: url(fonts/Roboto_Slab/Static/RobotoSlab-Medium.ttf);}
+@font-face {font-family: R-Slab-Lig;src: url(fonts/Roboto_Slab/Static/RobotoSlab-Light.ttf);}
+.bold-char { font-family: Montserrat-Bold; }
 body{ background-color: #FDE055; color: #14343E; font-family: Montserrat-Reg;}
 p {font-size: 16px;}
 .page-container { margin-left: 5em; margin-right: 5em;}
 
 /* Navigation Bar */
-.nav-bar-box { margin: 2em; }
+.nav-bar-box { margin: 2em;}
 .p-nav1 { float: left;font-size: 1em;padding: 0;margin-left: 2em;font-family: R-Slab-Lig;}
 .p-nav2 { float: right;font-size: 1em;padding: 0;margin-right: 2em;font-family: R-Slab-Lig;}
 .p-nav1 li { display: inline-block; padding-right: 1em;}
 .p-nav2 li { display: inline-block; padding-right: 1em;}
 /* homepage */
 
-.hero {line-height: 2.35em;letter-spacing: 3px;font-family: R-Slab-Reg;padding-top: 3em;}
-
-.hero p{font-family: R-Slab-Reg; line-height: 2em; letter-spacing: 1px;margin-bottom: 5em;color: #006494;}
+.hero {font-family: R-Slab-Reg;padding-top: 75px;}
+.hero h1{font-size: 48px;line-height: 1.25em;letter-spacing: 2.3px;}
+.hero p{line-height: 2em;letter-spacing: 1px;margin-bottom: 5em;color: #006494;}
 
 .wrapper{
 	display: grid;
@@ -37,7 +27,7 @@ p {font-size: 16px;}
   	padding-bottom: 2rem;
 }
 .wrapper span{font-size: 10px;text-transform: uppercase;}
-.projs {width: 30em;height: 15em;font-size: 16px;}
+.projs {width: 30em;height: 15em;font-size: 16px;p}
 .projs h5 {text-transform: uppercase;}
 .one {grid-column: 1;grid-row: 1;}
 .two {grid-column: 1;grid-row: 2;}
