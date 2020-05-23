@@ -29,14 +29,20 @@ article h3 {line-height: 125%;letter-spacing: 3px;font-family: R-Slab-Reg;}
 article h1 {font-size: 48px;line-height: 125%;letter-spacing: 1px;font-family: R-Slab-Reg;}
 
 .intro {margin-bottom: 50px;}
-.grid-items-2{grid-template-columns: repeat(1, 1fr);}
-.grid-items-3{display: grid;grid-template-columns: repeat(3, 1fr);grid-gap: 3em;}
+.display-grid{display: grid;}
+.grid-items-area{grid-area: header;}
+.grid-items-2{grid-template-columns: repeat(2, 1fr);}
+.grid-items-3{grid-template-columns: repeat(3, 1fr);grid-gap: 3em;}
 .grid-items-4{grid-template-columns: repeat(4, 1fr);grid-gap: 2em;}
+.grid-items-5{grid-template-columns: repeat(5, 1fr);grid-gap: 2em;}
 
 .f-1 { grid-column: 1; grid-row: 1;}
 .f-2 { grid-column: 2; grid-row: 1;}
 .f-3 { grid-column: 3; grid-row: 1;}
 .f-4 { grid-column: 4; grid-row: 1;}
+.f-5 { grid-column: 5; grid-row: 1;}
+
+.facts p{font-size: 12px;padding:16px;}
 
 .grid-items p {padding: 1em;}
 .grid-items h6 {font-family: Montserrat-Bold;text-transform: uppercase;}
