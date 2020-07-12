@@ -4,57 +4,46 @@
 @font-face {font-family: R-Slab-Med;src: url(fonts/Roboto_Slab/Static/RobotoSlab-Medium.ttf);}
 @font-face {font-family: R-Slab-Lig;src: url(fonts/Roboto_Slab/Static/RobotoSlab-Light.ttf);}
 .bold-char { font-family: Montserrat-Bold; }
-body{ background-color: #FDE055; color: #14343E; font-family: Montserrat-Reg;margin: 0em 5em 5em;}
-p {font-size: 16px;}
-.page-container { margin-left: 5em; margin-right: 5em;}
-
-/* Navigation Bar */
-.nav-bar-box { margin: 2em;}
-.p-nav1 { float: left;font-size: 1em;padding: 0;margin-left: 2em;font-family: R-Slab-Lig;}
-.p-nav2 { float: right;font-size: 1em;padding: 0;margin-right: 2em;font-family: R-Slab-Lig;}
-.p-nav1 li { display: inline-block; padding-right: 1em;}
-.p-nav2 li { display: inline-block; padding-right: 1em;}
-/* homepage */
-
-.hero {font-family: R-Slab-Reg;padding-top: 75px;}
-.hero h1{font-size: 48px;line-height: 1.25em;letter-spacing: 2.3px;}
-.hero p{line-height: 2em;letter-spacing: 1px;margin-bottom: 5em;color: #006494;}
-
-.wrapper{
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-  	grid-gap: 25px 135px;
-  	padding-bottom: 2rem;
+body{ 
+	background-color: #f4f1de;
+	color: #3d405b;
+	font-family: Montserrat-Reg;
+	margin: 3em;
+	padding: 1em;
 }
-.wrapper span{font-size: 10px;text-transform: uppercase;}
-.projs {width: 30em;height: 15em;font-size: 16px;p}
-.projs h5 {text-transform: uppercase;}
-.one {grid-column: 1;grid-row: 1;}
-.two {grid-column: 1;grid-row: 2;}
-.three {grid-column: 2;grid-row: 1;}
-.four {grid-column: 2;grid-row: 2;}
-.five {grid-column: 1;grid-row: 3;}
+h1 { font-size: 30px;}
+h2 {font-size: 24px;font-family: R-Slab-Reg;}
+h3 {font-size: 14px;}
+h4 {font-size: 12px;}
+p {font-size: 16px;}
 
+ul li {list-style-type: none;display: inline-block;padding-right: 0.5em;}
+/* Navigation Bar */
+.p-nav1 {float: right;padding: 0;color: #e07a5f;}
+.p-nav1 h1 {font-size: 14px;}
+.p-nav1 li {margin-right: 10px;}
+/*color: #e07a5f;*/
 
-.placeholder { display:inline-block; }
+/* homepage */
+.hero {width: 65%;}
+.hero h2{line-height: 1.25em;}
+.hero p{line-height: 2em;margin-bottom: 5em;}
+.skills {padding: 0;}
 
+.list-box {display: flex;flex-direction: column;flex-wrap: wrap;}
+article {margin-bottom: 5em;transition-duration: 200ms;}
 
-
-.projs a:link {text-decoration: underline;color: #14343E;}
-/* visited link */
-.projs a:visited {text-decoration: none;color: #14343E;}
-/* mouse over link */
-.projs a:hover {color: #247BA0;}
-/* selected link */
-.projs a:active {color: #247BA0;}
+/*Projects*/
+/*============*/
 
 /* Links Styling */
-
+/*a {text-decoration: none;color: #81b29a;}*/
 /* unvisited link */
-a:link {text-decoration: underline;color: #14343E;}
+a:link {text-decoration: none;color: #81b29a;}
 /* visited link */
-a:visited {text-decoration: none;color: #14343E;}
+a:visited {text-decoration: none;color: #81b29a;}
 /* mouse over link */
-a:hover {color: #14343E;background-color: #F2EFEA;}
+a:hover {color: #f4f1de;background-color: #3d405b;padding: 0.25em;transition: linear 300ms;}
+a:hover:after {content: " \2192";}
 /* selected link */
 a:active {text-decoration: underline;}

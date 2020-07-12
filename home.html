@@ -1,54 +1,84 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<title>Cole Inniss</title>
-<!---- Nav Bar -->
-<nav>	
-	<div class="nav-bar-box">
-		<ul class="p-nav1">
-			<li> <a href="home.html">Cole Inniss</a></li>
-		</ul>
-		<ul class="p-nav2">
-			<li> <a href="https://www.dropbox.com/s/7sn58rolztry2lf/ColeInniss-Resume.pdf?dl=0"target="_blank">Resume</a> </li>
-		</ul>
-	</div>
-</nav>
+	<style>
+	#box{
+		background-color: red;
+		width: 20px;
+	}
+	</style>
 </head>
 <body>
-	<div class="page-container">
-		<!-- This is the box where I briefly describe my work-->
-		<header class="hero">
-			<h1> Welcome y'all– I am a designer, interested in creating inclusive and accessible interactions within the digital landscape. </h1>
-					<p>Currently on a summer 2020 internship @ <a href="https://www.intuit.com/company/">Intuit </a> as an Accessibility Product Designer. Also, working on a side project over at <a href="https://www.rit.edu/research/simonecenter/nsf-deaf-college-innovation-bowl"> my college</a> apart of the <a href="https://www.rit.edu/research/simonecenter/nsf-deaf-college-innovation-bowl"> NSF National Deaf College Innovation Challenge.</a> 
-					<a href="about.html" > More about me</a></p>
-		</header>	
-		<!-- These are the Projects-->
-		<div class="wrapper">
-			<article class="projs one">
-				<span> Internship, Inclusivity, Accessibility</span>
-				<a href="p-intuit.html"><h3>Designing the guidelines for the Blind and Keyboard Users</h3></a>
+	<!---- Nav Bar -->
+	<nav>	
+		<ul class="p-nav1 current-page">
+			<li> <h1><a href="home.html">My Work</a></h1></li>
+			<li><h1><a href="https://www.dropbox.com/s/7sn58rolztry2lf/ColeInniss-Resume.pdf?dl=0"target="_blank">My Resume</a></h1></li>
+		</ul>
+	</nav>
+	<!-- This is the box where I briefly describe my work-->
+	<header class="hero">
+		<h2>Welcome y'all– I am Cole, an Accessibility and Inclusive Product Designer.</h2>
+		<p>I am an undergraduate at <a href="https://www.rit.edu/">RIT</a> graduating in Spring of 2021 and apart of a team in the <a href="https://www.rit.edu/research/simonecenter/nsf-deaf-college-innovation-bowl">NSF National Deaf College Innovation Challenge.</a> Currently on a summer internship @ <a href="https://www.intuit.com/company/">Intuit</a> as an Accessibility Product Designer. 
+		<a href="about.html"> More about me</a> </p>
+		
+
+	</header>
+	<!-- These are the Projects-->
+	<h2>Work</h2>
+	<div id="box">
+	</div>
+	<section class="list-box">
+		<article class="boxes">
+				<ul class="skills">
+					<li>Internship</li>
+					<li>Inclusivity</li>
+					<li>Accessibility</li>
+				</ul>
+				<a href="p-intuit.html">	
+					<h3>Intuit Accessibility Project</h3>
+				</a>
+				<img src="images/projects/intuit-images/intuit-project.png" width="100%" height="400px"/>
+		</article>
+
+		<!-- <a href="p-icecream.html"></a> -->
+			<article class="boxes">
+				<div class="current-page">
+					<ul class="skills">
+						<li>School Project</li>
+						<li>Interaction Design</li>
+						<li>Concept Development</li>
+					</ul>
+					<h3>Shoe Museum Exhibit: Interactive Trivia Game</h3>
+				</div>
+				<div>
+					<img src="images/projects/Shoe-Project.png" width="100%" height="400px"/>
+				</div>
+			</article>
+		<!-- <a href="p-icecream.html"></a> -->
+			<article class="boxes">
+				<ul class="skills">
+					<li>School Project</li>
+					<li>Interaction Design</li>
+				</ul>
+				<h3>Interactive Ice Cream Vending Machine</h3>
+				<img src="images/projects/icecream-images/Ice-Project.png" width="100%" height="400px"/>
 				
-				<img class="placeholder" src="images/placeholder/pinwheel.svg" alt="kid with a pinwheel" width="100" height="100">
 			</article>
-			<article class="projs two">
-				<span> School, Interaction Design </span>
-				<h3>Designing a Trivia game for a Shoe Museum </h3>
-				<img class="placeholder" src="images/placeholder/pinwheel.svg" alt="kid with a pinwheel" width="100" height="100">
-			</article>		
-			<article class="projs three">
-				<span> School, Interaction Design </span>
-				<a href="p-icecream.html"> <h3>Designing an Ice Cream Vending Machine for Everyone; Including your Pets </h3></a>
-				<img class="placeholder" src="images/placeholder/pinwheel.svg" alt="kid with a pinwheel" width="100" height="100">
+		<!-- <a href="p-fidelity.html"></a> -->
+			<aritcle class="boxes">
+				<ul class="skills">
+					<li>Internship</li>
+					<li>Inclusivity</li>
+					<li>Concept Development</li>
+				</ul>
+				<h3>Fidelity Investments Inclusive Investing Exerpience </h3>
+				<img src="images/projects/fidelity-images/fidelity-project.png" width="100%" height="400px"/>
 			</article>
-			<article class="projs four">
-				<span> Internship, Inclusivity, Concept Development </span>
-				<a href="p-fidelity.html"> <h3>Designing an Inclusive Investing Exerpience </h3></a>
-				<img class="placeholder" src="images/placeholder/pinwheel.svg" alt="kid with a pinwheel" width="100" height="100">
-			</article>
-		</div> <!-- Eof Wrapper -->
-	</div> <!-- eof Page-Container -->
+	</section>
 
 </body>
 </html> 
